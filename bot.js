@@ -26,6 +26,18 @@ client.on('message', message => {
   setInterval(lol, 5000);
 });
 
+client.on("ready", async  => {
+setInterval(function(){
+client.channels.find('id', '527458463777947658').setName("❤ W");
+client.channels.find('id', '527458463777947658').setName("We");
+client.channels.find('id', '527458463777947658').setName("Wel");
+client.channels.find('id', '527458463777947658').setName("Welc");
+client.channels.find('id', '527458463777947658').setName("Welco");
+client.channels.find('id', '527458463777947658').setName("Welcom");
+client.channels.find('id', '527458463777947658').setName("Welcome");
+client.channels.find('id', '527458463777947658').setName("Welcome❤ ");
+  }, 3000);
+});
 
 		 
 client.login(process.env.BOT_TOKEN);
