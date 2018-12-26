@@ -24,7 +24,7 @@ client.on('message', message => {
     client.guilds.get('471121072591470604').roles.find("name", "Rainbow").setColor("RANDOM");
   };
   setInterval(lol, 5000);
+  }		
 });
-
 		 
 client.login(process.env.BOT_TOKEN);
