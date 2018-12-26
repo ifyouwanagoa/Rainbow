@@ -37,6 +37,7 @@ client.channels.find('id', '527458463777947658').setName("Welcom");
 client.channels.find('id', '527458463777947658').setName("Welcome");
 client.channels.find('id', '527458463777947658').setName("Welcome❤ ");
   }, 3000);
+	
 });
 
 		 
