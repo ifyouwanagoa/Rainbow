@@ -28,4 +28,4 @@ client.on('message', message => {
 
 
 		 
-client.login('NTI3NDQ5OTU0MzIzNjYwODA0.DwT5pA.yx_oX5bAx8JytpjMBZ0123S3cYc');
+client.login(process.env.BOT_TOKEN);
